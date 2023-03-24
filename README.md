@@ -11,7 +11,11 @@ Mypy is an optional static type checker for the Python programming language. It 
 Mypy uses a syntax similar to Python's type hinting syntax, introduced in Python 3.5, to specify types. While Python is a dynamically typed language, mypy allows developers to add static typing to their code to make it more robust and easier to maintain. Mypy can also be integrated with popular text editors and IDEs, making it easy to use as part of the development workflow.
 ## Process:
 ### 1. install mypy using command: `python -m pip install mypy`<br>
+![image](https://user-images.githubusercontent.com/79001372/227493562-d6b8a88b-e27c-44c4-b14a-e8dc0df11376.png)
+-----
 ### 2. Run the following command for analysis of code: `python -m mypy <path_of_file>`<br>
+![image](https://user-images.githubusercontent.com/79001372/227493988-2bb25c8e-9f01-4c6e-bb55-9f9917817c0c.png)
+-----
 ### 3. errors:<br>
 ![image](https://user-images.githubusercontent.com/79001372/227474222-949724e1-ca59-4d83-a122-d1c0704d6f5d.png)
 ### The error[import] shows that the modules are not found because in are local system we did not install those modules.<br>
